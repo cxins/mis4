@@ -24,6 +24,7 @@
 ![](https://github.com/xujianhui1995/mis4/blob/master/3.png)
 
 SQL语句：
+
 	SELECT * FROM sys_button
 	where MenuNo=
 	(select MenuNo from(
