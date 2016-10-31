@@ -18,27 +18,10 @@
 				where LoginName='test1')))
  	and PrivilegeAccess='Sys_Menu');
 ##查询结果：
+![](https://github.com/xujianhui1995/mis4/blob/master/2.png)
 	 
 #对订单(order)页面中的操作权限(sys_button)
-	开始
-	↓
-输入用户名称test1、查询user表
-	↓
-UserID=4、查询userrole表
-	↓
-    RoleID=6
-    	↓PrivilegeMasterKey=6、PrivilegeAccess=Sys_Menu  查询cf_privilege表
-   PrivilegeID
-	↓
-     MenuName
-     	↓
-   MenuName=订单、查询结果集
-	↓
-MenuNo= OrderManageOrders、查询button表
-	↓
-     按钮权限
-
-
+![](https://github.com/xujianhui1995/mis4/blob/master/3.png)
 SQL语句：
 	SELECT * FROM sys_button
 	where MenuNo=
@@ -62,4 +45,5 @@ SQL语句：
 	 where MenuName='订单');
 
 ##查询结果：
+![](https://github.com/xujianhui1995/mis4/blob/master/4.png)
  
