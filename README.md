@@ -1,16 +1,5 @@
 #查询用户test1可以查看的页面
-	开始
-	↓
-输入用户名称test1、查询user表
-	↓
-UserID=4、查询userrole表
-	↓
-    RoleID=6
-	↓PrivilegeMasterKey=6、PrivilegeAccess=Sys_Menu  查询cf_privilege表
-   PrivilegeID
-   	↓
-    MenuName
-
+![](https://github.com/xujianhui1995/mis4/blob/master/1.png)
 ##SQL语句：
 	SELECT MenuName,MenuUrl 
 	FROM sys_menu 
